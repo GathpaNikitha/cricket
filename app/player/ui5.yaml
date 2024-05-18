@@ -1,0 +1,4 @@
+specVersion: "2.5"
+metadata:
+  name: com.nikitha.cricket.player
+type: application

@@ -1,0 +1,23 @@
+{
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.cricketAdmin",
+      "description": "Admin role for cricket"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "Admin",
+      "description": "Admin role for cricket",
+      "scope-references": [
+        "$XSAPPNAME.cricketAdmin"
+      ]
+    }
+  ],
+  "oauth2-configuration": {
+    "redirect-uris": [
+      "https://*.cfapps.us10-001.hana.ondemand.com/**"
+    ]
+  }
+}
